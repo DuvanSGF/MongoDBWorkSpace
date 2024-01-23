@@ -3,10 +3,7 @@
   "author": "Ing. Duván Albeiro Mejia Cortes",
   "create date:": "23-01-2024",
   "description": "MongoDB documentation and querys review"
-}
-
-
-
+},
 
 //Find()
 db.transactions.find({transactions:{$elemMatch: { amount:{$lte: 4500 }, transaction_code: "sell"},},})
